@@ -232,7 +232,7 @@ body {
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 800;
     color: #ffffff;
     margin-bottom: 15px;
@@ -280,7 +280,7 @@ body {
 }
 
 .cta-button {
-    display: inline-block;
+    display: block;
     background: linear-gradient(135deg, #f1c40f, #e67e22);
     color: #1a1a2e;
     padding: 14px 40px;
@@ -297,6 +297,8 @@ body {
     animation: slideDown 0.8s ease-out 0.3s backwards;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .cta-button::before {
